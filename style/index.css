@@ -1,0 +1,149 @@
+@import url('./colors.css');
+
+
+/* estilo gerais*/
+body {
+    background-color: var(--bg-Primary);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: var(--white);
+}
+
+a {
+    color:var(--white);
+    text-decoration: none;
+}
+
+/*estilizando o header */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0 25px;
+}
+
+.logo{
+
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 36px;
+    font-family: 'open sans';
+}
+
+.logo img {
+    height: 38px;
+    width: 33px;
+}
+
+.menu a {
+    font-size: 26px;
+    padding: 10px;
+}
+
+/* estilizando o conteudo principal */
+
+/*banner de introdução */
+main .introduction {
+    background-color: var(--bg-Secundary);
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    max-height: 400px;
+}
+
+.introduction img {
+    max-height: 320px;
+    max-width: 480px;
+    border: solid 15px var(--bg-Primary);
+}
+
+.introduction p {
+    font-size: 24px;
+}
+
+/* card de cursos */
+main .course-Primary {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-size: 24px;
+}
+
+.course-Primary h2 {
+    font-weight: normal;
+}
+
+.course-Primary .card-course {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.card-course p {
+    padding: 25px;
+    font-size: 18px;
+    border-radius: 25px;
+    background-color: var(--grey);
+    color: black;
+}
+
+/* rodapé */
+
+footer {
+    background-color: #444;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 75px;
+   
+}
+
+.logo-footer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+}
+
+.logo-footer img{
+    color: white;
+    height: 25px;
+}
+
+
+.left ul {
+    list-style: none;
+    padding: 0;
+  
+}
+
+.left ul a {
+    color: #DCD5D5;
+}
+
+.center {
+    margin: auto;
+}
+
+.right{
+    text-align: center;
+}
+
+.right div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
